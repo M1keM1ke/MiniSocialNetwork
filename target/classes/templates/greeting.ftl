@@ -2,5 +2,5 @@
 
 <@c.page>
 <h5>Hello, guest</h5>
-<div>Some kicks info website</div>
+<div>Would u like some potato chips?</div>
 </@c.page>
