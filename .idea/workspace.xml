@@ -1,264 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95a5c7c1-77ff-442b-b013-c976bcc4bb09" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/repos/MessageRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__Add_subscriptions_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/pager.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/subscriptions.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/potatoChips/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/potatoChips/MainControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/create-user-after.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/create-user-before.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/messages-list-after.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/messages-list-before.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="95a5c7c1-77ff-442b-b013-c976bcc4bb09" name="Default" comment="refresh all project, fix a lot of bugs.&#10;Add csrf token support, bCrypt passwords, db migration, pagination, reCaptcha, activation account, bootstrap UI">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/potatoChips/service/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SweaterProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleSocialNetwork.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/config/EncriptionConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/config/MailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/config/MailConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/ControllerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/controller/ControllerUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/controller/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/domain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/domain/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/domain/dto/CaptchaResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/domain/dto/CaptchaResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/repos/MessageRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/repos/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/repos/UserRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/service/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/service/MailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/service/WeatherParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/service/WeatherParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/PotatoChips.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips.war.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/config/EncriptionConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/config/MailConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/config/MvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/config/WebSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/controller/ControllerUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/controller/RegistrationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/controller/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/domain/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/domain/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/domain/dto/CaptchaResponseDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/repos/MessageRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/repos/UserRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/service/MailSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/com/example/sweater/service/WeatherParse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/db/migration/V1__Init_DB.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/db/migration/V2__Add_admin.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/db/migration/V3__Encode_passwords.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/static/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/templates/greeting.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/templates/greeting.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/templates/login.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/templates/main.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/templates/parts/common.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/templates/parts/login.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/templates/parts/navbar.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/templates/parts/security.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/templates/profile.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/templates/registration.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/templates/testView.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/templates/userEdit.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/classes/templates/userList.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/HikariCP-2.7.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/activation-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/flyway-core-5.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/freemarker-2.3.27-incubating.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/hibernate-core-5.2.14.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/hibernate-validator-6.0.7.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/jackson-core-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/jackson-datatype-jdk8-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/jackson-datatype-jsr310-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/jackson-module-parameter-names-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/javax.mail-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/javax.transaction-api-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/jsoup-1.13.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/log4j-api-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/log4j-to-slf4j-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/postgresql-42.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/snakeyaml-1.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-aspects-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-boot-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-boot-autoconfigure-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-boot-starter-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-boot-starter-aop-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-boot-starter-data-jpa-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-boot-starter-freemarker-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-boot-starter-jdbc-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-boot-starter-json-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-boot-starter-logging-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-boot-starter-mail-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-boot-starter-security-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-boot-starter-tomcat-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-boot-starter-web-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-context-support-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-data-commons-2.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-data-jpa-2.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-jdbc-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-orm-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-security-config-5.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-security-core-5.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-security-web-5.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-tx-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/tomcat-embed-core-8.5.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/tomcat-embed-el-8.5.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/tomcat-embed-websocket-8.5.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PotatoChips/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/config/EncriptionConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/config/MailConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/config/MvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/config/WebSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/controller/ControllerUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/controller/RegistrationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/controller/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/domain/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/domain/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/domain/dto/CaptchaResponseDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/repos/MessageRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/repos/UserRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/service/MailSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/service/WeatherParse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/greeting.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/greeting.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/security.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/security.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userEdit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/HikariCP-2.7.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/activation-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/aspectjweaver-1.8.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/flyway-core-5.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/freemarker-2.3.27-incubating.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/hibernate-core-5.2.14.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/hibernate-validator-6.0.7.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/jackson-core-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/jackson-databind-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/jackson-datatype-jdk8-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/jackson-datatype-jsr310-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/jackson-module-parameter-names-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/jandex-2.0.3.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/javassist-3.22.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/javax.mail-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/javax.transaction-api-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/jsoup-1.13.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/log4j-api-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/log4j-to-slf4j-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/postgresql-42.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/snakeyaml-1.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-aspects-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-boot-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-boot-autoconfigure-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-boot-devtools-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-boot-starter-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-boot-starter-aop-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-boot-starter-data-jpa-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-boot-starter-freemarker-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-boot-starter-jdbc-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-boot-starter-json-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-boot-starter-logging-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-boot-starter-mail-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-boot-starter-security-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-boot-starter-tomcat-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-boot-starter-web-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-context-support-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-data-commons-2.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-data-jpa-2.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-jdbc-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-orm-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-security-config-5.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-security-core-5.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-security-web-5.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-tx-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/tomcat-embed-core-8.5.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/tomcat-embed-el-8.5.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/tomcat-embed-websocket-8.5.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency/validation-api-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/potatoChips/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,6 +31,7 @@
         <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -312,6 +59,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Change SQL Dialect" value="PostgreSQL" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -320,19 +69,26 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5126437" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mike_\IdeaProjects\SweaterProject\src\test\resources" />
-      <recent name="C:\Users\mike_\IdeaProjects\SweaterProject\src\main\resources\templates" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.potatoChips.service" />
+      <recent name="com.example.potatoChips" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mike_\IdeaProjects\SweaterProject\src\main\resources\db\migration" />
       <recent name="C:\Users\mike_\IdeaProjects\SweaterProject\src\main\resources" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mike_\IdeaProjects\SweaterProject\src\test\resources" />
+      <recent name="C:\Users\mike_\IdeaProjects\SweaterProject\src\main\resources\templates" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="JUnit.UserServiceTest.activateUserFailTest">
     <configuration name="Test" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.sweater.config.Test" />
       <module name="SimpleSocialNetwork" />
@@ -353,51 +109,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.correctLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimpleSocialNetwork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.potatoChips.*" />
+          <option name="PATTERN" value="com.example.potatoChips.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.potatoChips" />
-      <option name="MAIN_CLASS_NAME" value="com.example.potatoChips.LoginTest" />
-      <option name="METHOD_NAME" value="correctLoginTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SimpleSocialNetwork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.potatoChips.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.potatoChips" />
-      <option name="MAIN_CLASS_NAME" value="com.example.potatoChips.LoginTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SimpleSocialNetwork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.potatoChips.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.potatoChips" />
-      <option name="MAIN_CLASS_NAME" value="com.example.potatoChips.MainControllerTest" />
+      <option name="PACKAGE_NAME" value="com.example.potatoChips.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.potatoChips.service.UserServiceTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.activateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleSocialNetwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.potatoChips.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.potatoChips.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.potatoChips.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="activateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.activateUserFailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleSocialNetwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.potatoChips.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.potatoChips.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.potatoChips.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="activateUserFailTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleSocialNetwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.potatoChips.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.potatoChips.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.potatoChips.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="addUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.addUserFailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleSocialNetwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.potatoChips.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.potatoChips.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.potatoChips.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="addUserFailTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -405,21 +195,6 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.example.potatoChips in SimpleSocialNetwork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SimpleSocialNetwork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.potatoChips.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.potatoChips" />
-      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -450,21 +225,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SimpleSocialNetwork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.potatoChips.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.potatoChips.Application" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=dev" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -476,20 +236,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.MainControllerTest" />
-      <item itemvalue="JUnit.LoginTest.correctLoginTest" />
-      <item itemvalue="JUnit.LoginTest.test" />
       <item itemvalue="Maven.Heroku deploy" />
-      <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="JUnit.com.example.potatoChips in SimpleSocialNetwork" />
+      <item itemvalue="JUnit.UserServiceTest" />
+      <item itemvalue="JUnit.UserServiceTest.addUser" />
+      <item itemvalue="JUnit.UserServiceTest.addUserFailTest" />
+      <item itemvalue="JUnit.UserServiceTest.activateUser" />
+      <item itemvalue="JUnit.UserServiceTest.activateUserFailTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="JUnit.com.example.potatoChips in SimpleSocialNetwork" />
-        <item itemvalue="JUnit.LoginTest.test" />
-        <item itemvalue="JUnit.MainControllerTest" />
-        <item itemvalue="JUnit.LoginTest.correctLoginTest" />
+        <item itemvalue="JUnit.UserServiceTest.activateUserFailTest" />
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.UserServiceTest.addUser" />
+        <item itemvalue="JUnit.UserServiceTest.activateUser" />
+        <item itemvalue="JUnit.UserServiceTest.addUserFailTest" />
       </list>
     </recent_temporary>
   </component>
@@ -545,41 +305,17 @@
       <workItem from="1590071880408" duration="93000" />
       <workItem from="1590332653391" duration="1916000" />
       <workItem from="1590392790155" duration="1209000" />
-      <workItem from="1593344493320" duration="2287000" />
+      <workItem from="1593344493320" duration="13711000" />
     </task>
+    <task id="LOCAL-00001" summary="refresh all project, fix a lot of bugs.&#10;Add csrf token support, bCrypt passwords, db migration, pagination, reCaptcha, activation account, bootstrap UI">
+      <created>1593348275804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593348275804</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="MainControllerTest - 2020.04.30 at 17h 47m 11s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainControllerTest - 2020.04.30 at 17h 58m 10s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainControllerTest - 2020.04.30 at 17h 59m 25s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainControllerTest - 2020.04.30 at 18h 00m 58s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainControllerTest - 2020.04.30 at 18h 01m 55s.xml">
-      <configuration name="MainControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_example_sweater_in_SweaterProject - 2020.04.30 at 18h 03m 37s.xml">
-      <configuration name="com.example.sweater in SweaterProject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_example_sweater_in_SweaterProject - 2020.04.30 at 18h 07m 39s.xml">
-      <configuration name="com.example.sweater in SweaterProject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest_test - 2020.04.30 at 18h 10m 30s.xml">
-      <configuration name="LoginTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_example_sweater_in_SweaterProject - 2020.04.30 at 18h 11m 12s.xml">
-      <configuration name="com.example.sweater in SweaterProject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_example_sweater_in_SweaterProject - 2020.05.03 at 14h 10m 46s.xml">
-      <configuration name="com.example.sweater in SweaterProject" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -593,47 +329,75 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refresh all project, fix a lot of bugs.&#10;Add csrf token support, bCrypt passwords, db migration, pagination, reCaptcha, activation account, bootstrap UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="refresh all project, fix a lot of bugs.&#10;Add csrf token support, bCrypt passwords, db migration, pagination, reCaptcha, activation account, bootstrap UI" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1593347585095">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1593356817309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593347585095" />
-    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1593347585095">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593356817309" />
+    <state x="551" y="281" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593356760033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593347585095" />
-    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1593347585094">
+    <state x="551" y="281" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593356760033" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593383661484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593347585094" />
-    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1593347585095">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593383661484" />
+    <state x="318" y="0" key="CommitChangelistDialog2" timestamp="1593348261853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593347585095" />
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1593347585095">
+    <state x="318" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593348261853" />
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1593383427248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593347585095" />
-    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1593347585095">
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593383427248" />
+    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1593383427248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593347585095" />
-    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1593347585095">
+    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593383427248" />
+    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1593383427247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593347585095" />
-    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1593347585095">
+    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593383427247" />
+    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1593383427248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593347585095" />
-    <state x="274" y="0" key="SettingsEditor" timestamp="1593347320955">
+    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593383427248" />
+    <state width="1493" height="270" key="GridCell.Tab.1.bottom" timestamp="1593382173849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="274" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593347320955" />
+    <state width="1493" height="270" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593382173849" />
+    <state width="1493" height="270" key="GridCell.Tab.1.center" timestamp="1593382173848">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="270" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593382173848" />
+    <state width="1493" height="270" key="GridCell.Tab.1.left" timestamp="1593382173848">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="270" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593382173848" />
+    <state width="1493" height="270" key="GridCell.Tab.1.right" timestamp="1593382173848">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="270" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593382173848" />
+    <state x="274" y="0" key="SettingsEditor" timestamp="1593382743224">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="274" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593382743224" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593348452792">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593348452792" />
     <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593347052126">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593347052126" />
+    <state x="540" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593357485798">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1593357485798" />
     <state x="478" y="147" width="580" height="530" key="find.popup" timestamp="1593347699608">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -642,11 +406,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/potatoChips/service/UserService.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/potatoChips/service/UserService.java</url>
           <line>111</line>

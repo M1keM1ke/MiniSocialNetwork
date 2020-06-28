@@ -25,6 +25,13 @@ public class UserService implements UserDetailsService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
+    public UserService(UserRepo userRepo, MailSender mailSender, PasswordEncoder passwordEncoder) {
+        this.userRepo = userRepo;
+        this.mailSender = mailSender;
+        this.passwordEncoder = passwordEncoder;
+    }
+
+
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = userRepo.findByUsername(username);
@@ -59,7 +66,7 @@ public class UserService implements UserDetailsService {
         if (!StringUtils.isEmpty(user.getEmail())) { //не empty и не null
             String message = String.format(
                     "Hello, %s! \n" +
-                            "Welcome to HellaKickz. Please, visit next link: http://localhost:8080/activate/%s",
+                            "Welcome to Potato Chips. Please, visit next link: http://localhost:8080/activate/%s",
                     user.getUsername(),
                     user.getActivationCode()
             );
